@@ -1,0 +1,10 @@
+CompileFlags:
+  Add:
+    - -I/Users/alikubatbaev/Downloads/wxWidgets-3.2.8/include
+    - -I/Users/alikubatbaev/Downloads/wxWidgets-3.2.8/macbuild/lib/wx/include/osx_cocoa-unicode-3.2
+    - -D__WXMAC__
+    - -D__WXOSX__
+    - -D__WXOSX_COCOA__
+    - -DwxUSE_GUI=1
+  Remove:
+    - -W*
