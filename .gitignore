@@ -60,6 +60,8 @@ Release/
 Thumbs.db
 
 # Clang/LLVM
+.clangd
+.clang-format
 .clangd/
 .cache/
 compile_commands.json
